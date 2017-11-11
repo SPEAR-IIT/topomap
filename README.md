@@ -5,5 +5,5 @@ HierTopoMap is a library for static mapping, which implements a set of network a
 AnalMap - Analytical Topology Mapping Tool for 3D Mesh/Torus
 AnalMap is a topology mapping tool for 3D torus-connected supercomputers. It uses the analytical mapping algorithm, which is inspired by the analytical placement technique for VLSI physical design. It is designed for mapping irregular communication graph onto 3D mesh/torus, and can also handle regular communication graph fairly efficiently. AnalMap takes a topology specification and a communication graph as inputs, and then generates an optimized mapping file, which can be used for IBM Blue Gene/P supercomputers.
 
-The tool was developed by Jingjin Wu and Xuanxing Xiong at the Illinois Instiute of Technology. 
+The tool was developed by Jingjin Wu and Xuanxing Xiong under the supervision of Zhiling Lan at the Illinois Instiute of Technology. 
 Note: if you use TopoMap in your work, please cite the papers : (1) J. Wu, X. Xiong, E. Berrocal, J. Wang, and Z. Lan, "Topology Mapping of Irregular Parallel Applications on Torus-Connected Supercomputers", The Journal of Supercomputing, 2016. (2) J. Wu, X. Xiong, and Z. Lan, "Hierarchical Task Mapping for Parallel Applications on Supercomputers", The Journal of Supercomputing, 71(5):1776-1802, 2015.
